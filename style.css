@@ -1,0 +1,71 @@
+body{
+    background-color: #589ED9;
+    font-family: 'Open Sans', sans-serif;
+}
+#Container{
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center
+}
+#header .logo{
+    font-size: 65px;
+    color: white;
+}
+#header h1{
+    font-size: 40px;
+    color: white;
+    margin-top: 5px;
+}
+#loginform .containerfeilds{
+    background-color: white;
+    border-radius: 10px;
+}
+#loginform .containerfeilds input{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    width: 100%;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-indent: 20px;
+    border-radius: 5px
+}
+#loginform .containerfeilds input[type="password"]{
+    border-top: 1px solid #ccc;
+    border-radius: 0px;
+    border-bottom-right-radius: 6px;
+border-bottom-left-radius: 6px;
+}
+#loginform input[type="submit"]{
+    display: block;
+    width: 100%;
+    background-color:#1983d9;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px 0px;
+    color: white;
+    border :none;
+}
+#loginform input[type="submit"]:hover{
+    background-color:#0f71c1;
+    cursor: pointer;
+}
+#footer p a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#footer p a:hover{
+    text-decoration: underline;
+}
+#footer p{
+    font-size: 19px;
+    color: rgb(243, 240, 240);
+}
